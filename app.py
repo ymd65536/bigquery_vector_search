@@ -12,8 +12,8 @@ NUMBER_OF_RESULTS = 3
 PROJECT_ID = os.environ.get("PROJECT_ID", "")
 LOCATION = os.environ.get("LOCATION", "asia-northeast1")
 
-USE_EMBEDDING_MODEL_NAME = os.environ.get("USE_EMBEDDING_MODEL_NAME", "textembedding-gecko@latest")
 USE_CHAT_MODEL_NAME = os.environ.get("USE_CHAT_MODEL_NAME", "text-bison-32k@002")
+USE_EMBEDDING_MODEL_NAME = os.environ.get("USE_EMBEDDING_MODEL_NAME", "textembedding-gecko@latest")
 
 BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", "")
 BIGQUERY_TABLE = os.environ.get("BIGQUERY_TABLE", "")
